@@ -1,0 +1,373 @@
+[
+		//Angolan SSR, Angola
+		//Al-Tūyūtā, Chad
+		//Lone Star, Liberia
+		//New Rhodesia, Zimbabwe
+		//Sons of Ra, Egypt
+		//Diamond Hyenas, South Africa
+		//???, Nigeria
+		//???, Ethiopia
+	{
+	//Angolan remnants who who were given expiremental weaponry by russia and try to model their government based on the soviet union
+		"name": "Angolan SSR",
+		"leaderName": "Comrade Clemente",
+		"adjective": ["Angolan"],
+		//"startBias": [""],
+		"preferredVictoryType": "Domination",
+		//"personality": "Savimbi",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Fear not. The liberation of your people will be quick!",
+		"attacked": "It's not worth your while to attack, while we turn you to ashes!",
+		"defeated": "Glorious Angola! Fallen to fascists!",
+		"introduction": "Are you Comrade? No... you're weak.",
+		
+		"neutralHello": "Salutations!",
+		"hateHello": "Liberate your people, or we'll do it for you.",
+		"tradeRequest": "For everyone Comrade.",
+		
+		"outerColor": [195, 69, 0],
+		"innerColor": [40, 6, 6],
+
+		//"style": "",
+		"uniqueName": "Gifts from Stalin",
+		"uniques": [
+			"Starts with [Collectivism] adopted",
+			]
+		"cities": [
+			"Agostinho",
+			"Viriato",
+			"Lúcio",
+			"Eduardo",
+			"João",
+			"Fernando",
+			"Vicente",
+			"Bornito",
+			"Esperança",
+			"Nascimento",
+			"Fernando",
+			"Marcolino",
+			"Kassoma",
+			"Francisco",
+			"Cerqueira",
+			"Neto",
+			"Lara",
+			"Dos Santos",
+			"Lourenço"
+			]
+        "spyNames": ["Vinama", "Arlindo", "Demosthenes", "Chingunji", "Tito", "Chitunda", "António", "Kalias", "Sangumba", "Wilson"]
+	},
+	{
+		"name": "Lone Star",
+		"leaderName": "Lawrence",
+		"adjective": ["Liberian"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "It must be done... you have become too corrupt.",
+		"attacked": "You mistake our passiveness as weakness!",
+		"defeated": "The last bastion of liberty in Africa falls...",
+		"introduction": "Help us bring back the times of old, where people had a choice. A choice to enjoy life, live life, see life.",
+		
+		"neutralHello": "Welcome friend.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "We need your help, do you need ours?",
+		
+		"outerColor": [31, 57, 90],
+		"innerColor": [178, 129, 63],
+
+		//"style": "",
+		"uniqueName": "Bastion of Africa",
+		"uniques": [
+			]
+		"cities": [
+			"New Monrovia",
+			"Washington",
+			"Jeffersville",
+			"Madisonia",
+			"Hamiltown",
+			"Franklinton",
+			"Adamsville",
+			"Jay",
+			"Adamstown",
+			"Paine",
+			"Henria",
+			"Morrisville",
+			"Henlevia",
+			"Masson",
+			"Gerru",
+			"Morre",
+			"Carrolton",
+			"Shermantown",
+			"Wythe",
+			"Dickinson"
+			]
+        "spyNames": ["Samuel", "Joseph", "James", "Daniel", "Hilary", "Anthony", "Edward", "Alfred", "William", "Arthur"]
+	},
+	{
+		"name": "Al-Tūyūtā",
+		"leaderName": "Hassan",
+		"adjective": ["Tūyūtā"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [200, 179, 64],
+		"innerColor": [25, 9, 126],
+		//"style": "",
+		"uniqueName": "Toyota Warlords",
+		"uniques": [
+			"Starts with [Machinery]",
+			"Cannot build [Mounted] units",
+			"Cannot build [Mounted Ranged] units",
+			"[+2] Movement <for [All] units> <in [Desert] tiles>",
+			"[+10]% Strength <in [Friendly Land] tiles> <when defending>",
+			"[+15]% Production when constructing [Armor] units [in all cities]"
+			]
+		"cities": [
+			"Hāilūks",
+			"Silsilat 70",
+			"Silsilat 40",
+			"Silsilat 200",
+			"Kūrūlā",
+			"Fūrtyūnār",
+			"Hāyis",
+			"Brādū",
+			"Rāf Fūr",
+			"Kāmrī",
+			"Hāylāndar",
+			"Tākūmā",
+			"Brīūs",
+			"Fūr Ranar",
+			"Afālūn",
+			"Sīnā",
+			"Sī Āch Ār",
+			"Sīkwāyā",
+			"Yāris",
+			"Fīnza",
+			"Tūndrā"
+			]
+        "spyNames": ["Muḥammad", "Hissène", "Idriss", "Mahamat", "Goukouni", "Félix", "Noël", "François", "Djimrangar", "Youssouf"]
+	},
+    {
+        "name": "New Rhodesia",
+        "leaderName": "Ray Arnold",
+        "adjective": ["Rhodesian"],
+        "startBias": ["Badlands"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+
+		"outerColor": [7, 74, 47],
+		"innerColor": [242, 195, 1],
+
+        "uniqueName": "Rhodesians Never Die",
+        "uniques": [
+			""
+		],
+        "cities": [
+            "Salisbury",
+			"Bulawayo",
+			"Gwelo",
+			"Umtali",
+			"Fort Victoria",
+            "Que Que",
+			"Bindura",
+			"Shabani",
+			"Wankie",
+			"Sinoia",
+            "Hartley",
+			"Gatooma",
+			"Chiredzi",
+			"Chipinga",
+			"Victoria Falls",
+            "Karoi",
+			"Rusape",
+			"Marondera",
+			"Nyanga",
+			"Plumtree"
+	]
+        "spyNames": ["Ian", "Kenyon", "Peter", "Mick", "Frank", "Ronald", "Ken", "Abel", "Ndabaningi", "James"]
+    },
+	{
+		"name": "Vodúnsɛntó",
+		"leaderName": "",
+		"adjective": ["Vodún"],
+		//"startBias": [""],
+		"preferredVictoryType": "Cultural",
+		//"personality": "",
+		//"favoredReligion": "Vodúnsínsen",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [223, 218, 173],
+		"innerColor": [204, 14, 20],
+		//"style": "",
+		"uniqueName": "",
+		"uniques": [
+			]
+		"cities": [
+			"",
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+	},
+	{
+		"name": "Diamond Hyenas",
+		"leaderName": "",
+		"adjective": ["Hyena"],
+		//"startBias": [""],
+		"preferredVictoryType": "Domination",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [88, 100, 113],
+		"innerColor": [192, 222, 225],
+		//"style": "",
+		"uniqueName": "",
+		"uniques": [
+			]
+		"cities": [
+			"",
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+	},
+	{
+		"name": "Sons of Ra",
+		"leaderName": "Ramesses",
+		"adjective": ["Egyptian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Idolatry",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You are but a pest on this earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization.",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "The Sons of Ra welcome you.",
+		
+		"neutralHello": "Good Day.",
+		"hateHello": "Speak.",
+		"tradeRequest": "I offer this trade for your consideration.",
+
+		"outerColor": [216, 211, 186],
+		"innerColor": [165, 105, 11],
+		"style": "Ra",
+		"uniqueName": "Ra's Blessing",
+		"uniques": [
+			"[+1 Gold] from every [Desert]",
+			"Double quantity of [Slaves] produced",
+			"[All] units gain the [Inner Flame] promotion",
+			"[+1 Culture] from every [Luxury resource]"
+			]
+		"cities": [
+			"Khepri",
+			"Ebkhan",
+			"Abfufu",
+			"Tapporna",
+			"Ampi",
+			"Nekhtuma",
+			"Abkhanu",
+			"Akpekhen",
+			"Kerri",
+			"Djepepet",
+			"Gesmetjer",
+			"Farsaimty",
+			"Nempikhen",
+			"Avdjemunein",
+			"Behdbymeru",
+			"Nektukhen",
+			"Wapipet",
+			"Khasymty",
+			"Mentanis",
+			"Djazu",
+			"Behdsouthis"
+			]
+        "spyNames": ["Djehuty", "Mimmontu", "Hapuseneb", "Menkheperreseneb", "Amenemhat", "Mery", "Ptahmose", "Meryptah", "Maya", "Nebwenenef"]
+	},
+	{
+		"name": "Ethiopia",
+		"leaderName": "Salomon",
+		"adjective": ["Ethiopian"],
+		//"startBias": [""],
+		"preferredVictoryType": "Cultural",
+		//"personality": "",
+		"favoredReligion": "Ethiopian Orthodoxy",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+        "outerColor": [252, 222, 2],
+        "innerColor": [167, 91, 66],
+		//"style": "",
+		"uniqueName": "Poison in Our Blood",
+		"uniques": [
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory"
+			]
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
+	},/**/
+]

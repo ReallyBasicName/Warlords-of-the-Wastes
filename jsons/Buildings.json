@@ -1,0 +1,176 @@
+[
+	//Angolan SSR
+	{
+		"name": "",
+		"isWonder": true,
+		"uniqueTo": "Angolan SSR",
+		"production": 1,
+		"science": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Power]",
+			"[1] free [Dushka] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Leading Mobility.",
+	},
+	{
+		"name": "Secret Prison",
+		"uniqueTo": "Angolan SSR",
+		"replaces": "Prison Camp",
+		"hurryCostModifier": -25,
+		"production": 1,
+		"happiness": -2,
+		"cost": 20,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [2] [Slaves]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	}
+	//Al-Tūyūtā
+	{
+		"name": "Al-Maqar Al-Ra'īsī, Tshād",
+		"isWonder": true,
+		"uniqueTo": "Al-Tūyūtā",
+		"production": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"[1] free [Dushka] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Leading Mobility.",
+	},
+	{
+		"name": "Maṣāni‘ Al-Taṣnī‘",
+		"uniqueTo": "Al-Tūyūtā",
+		"replaces": "Factory",
+		// "food": -1,
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Engineer": 2 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[1] free [Dushka] units appear",
+			"Only available <in cities with a [Library]>",
+			"[+3 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
+	},
+	{
+		"name": "Markāz Al-Baḥth wa Al-Taṭwīr",
+		"uniqueTo": "Al-Tūyūtā",
+		"replaces": "Research Lab",
+		"percentStatBonus": { "culture": 5 },
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 2 },
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+	{
+		"name": "Makātib Al-Mabī‘āt",
+		"uniqueTo": "Al-Tūyūtā",
+		"replaces": "Market",	
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"[+1 Gold] from [Oil] tiles [in this city]",
+			"[+1 Gold] from [Aluminum] tiles [in this city]",
+			"[+1 Gold] from [Machine Parts] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Istūdyūhāt Al-Taṣmīm",
+		"uniqueTo": "Al-Tūyūtā",
+		"replaces": "University",	
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},/*
+		"uniqueTo": "Al-Tūyūtā",
+		"replaces": "",	
+*/	//Headquarters – المقر الرئيسي (Al-Maqar Al-Ra'īsī)
+	//Manufacturing Plants – مصانع التصنيع (Maṣāni‘ Al-Taṣnī‘)
+	//Research & Development Centers – مراكز البحث والتطوير (Markāz Al-Baḥth wa Al-Taṭwīr)
+	//Design Studios – استوديوهات التصميم (Istūdyūhāt Al-Taṣmīm)
+	//Logistics & Distribution Centers – مراكز اللوجستيات والتوزيع (Markāz Al-Lūjistyāt wa Al-Tawzī‘)
+	//Training Centers – مراكز التدريب (Markāz Al-Tadrīb)
+	//Sales Offices – مكاتب المبيعات (Makātib Al-Mabī‘āt)
+	//Showrooms – صالات العرض (Ṣālāt Al-‘Arḍ)
+	//Experience Centers – مراكز التجربة (Markāz Al-Tajriba)
+	//Testing and Proving Grounds – مواقع الاختبار والتجارب (Mawāqi‘ Al-Ikhtibār wa Al-Tajārib)
+	//Innovation Hubs – مراكز الابتكار (Markāz Al-Ibtikār)
+	
+	//Ethiopia
+	{
+		"name": "Holy Trinity Cathedral",
+		"isWonder": true,
+		"uniqueTo": "Ethiopia",
+		"culture": 1,
+		"faith": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Power]",
+			"[1] free [Debtera] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Leading Mobility.",
+	},
+	{
+		"name": "Stele",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Monument",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Tewahedo Church",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Monastery",
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"Only available <in cities with a [Shrine]>",
+			"Only available <when religion is enabled>"
+		]
+	},
+]
