@@ -1,12 +1,27 @@
 [
+		//Major Locations
 		//Angolan SSR, Angola
 		//Al-Tūyūtā, Chad
 		//Lone Star, Liberia
 		//New Rhodesia, Zimbabwe
 		//Sons of Ra, Egypt
 		//Diamond Hyenas, South Africa
-		//???, Nigeria
-		//???, Ethiopia
+		//Vodúnsɛntó, Nigeria
+		//Ethiopia, Ethiopia
+		//Majors in Ideas
+		//New Zaire, DR Congo
+		//???, Morocco
+		//???, Libya
+		//???, Somalia
+		//City-State Locations
+		//???, South Africa
+		//Purists, Nigeria, Cameroon
+		//???, 
+		//???, 
+		//, DR Congo
+		//???, 
+		//???, 
+		//???, 
 	{
 	//Angolan remnants who who were given expiremental weaponry by russia and try to model their government based on the soviet union
 		"name": "Angolan SSR",
@@ -176,12 +191,15 @@
         "adjective": ["Rhodesian"],
         "startBias": ["Badlands"],
         "preferredVictoryType": "Diplomatic",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "",
         "attacked": "",
         "defeated": "",
         "introduction": "",
+		
         "neutralHello": "",
         "hateHello": "",
         "tradeRequest": "",
@@ -224,7 +242,7 @@
 		//"startBias": [""],
 		"preferredVictoryType": "Cultural",
 		//"personality": "",
-		//"favoredReligion": "Vodúnsínsen",
+		"favoredReligion": "Vodúnsínsen",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -279,7 +297,7 @@
 		"cities": [
 			"",
 			]
-        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+        "spyNames": ["Lion", "Snake", "Dog", "Ocelot", "Lizard", "Wolf", "Tiger", "Panther", "Vulture", "Spider"]
 	},
 	{
 		"name": "Sons of Ra",
@@ -360,7 +378,7 @@
         "outerColor": [252, 222, 2],
         "innerColor": [167, 91, 66],
 		//"style": "",
-		"uniqueName": "Poison in Our Blood",
+		"uniqueName": "We're Still Standing",
 		"uniques": [
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory"
 			]
@@ -370,4 +388,103 @@
 			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
 	},/**/
+	//City-States
+		//City-State Locations
+		//???, South Africa
+		//Purists, Nigeria or Cameroon
+		//???, 
+		//Volta, Ghana
+		//???, DR Congo
+		//Kukuanaland, ???
+		//Koboko, Uganda
+		//UNISMINA, North Africa
+	{
+		"name": "Kukuanaland",
+		"adjective": ["Kukuana"],
+		"cityStateType": "Trading",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": ".",
+		"attacked": "?",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200, 160, 0],
+		"cities": ["Loo"]
+	},
+	{
+		"name": "Kongo-Zaire",
+		"adjective": ["Zairian"],
+		"cityStateType": "Weapons",
+		"startBias": ["Wasteland"],
+		
+		"declaringWar": "",
+		"attacked": "It has come to this? When the last city falls, will you be satisfied?",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [0, 0, 0],
+		"innerColor": [79, 143, 60],
+		"cities": ["Kinshasa"]
+	},
+	{
+		"name": "Volta",
+		"adjective": ["Volta"],
+		"cityStateType": "Labor",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "You'll drown in the blood we're about to shed!",
+		"attacked": "Muahahahahahaha!",
+		"defeated": "We may have been 'stopped', but you are now the bearer of the plague. You can't stop a thing...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [95, 0, 0],
+		"cities": ["Volta"]
+	},
+	{
+		"name": "African Union",
+		"adjective": ["Zairian"],
+		"cityStateType": "Labor",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "Unfortunately, we must destroy you in order to unite Africa.",
+		"attacked": "For African Unity!",
+		"defeated": "Our mission won't go unfinished!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [95, 0, 0],
+		"cities": ["Kinshasa"]
+	},
+	{
+		"name": "Koboko",
+		"adjective": ["Koboko"],
+		"cityStateType": "Labor",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "You'll drown in the blood we're about to shed!",
+		"attacked": "Muahahahahahaha!",
+		"defeated": "There are consequences to this. You will see that soon...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [95, 0, 0],
+		"cities": ["Koboko"]
+	},
+	{
+		"name": "UNISMINA",
+		"adjective": ["Zairian"],
+		"cityStateType": "Labor",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "You have been deemed a threat.",
+		"attacked": "End hostilities immediately",
+		"defeated": "Suspend all operations in the North African Exclusion Zone.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [95, 0, 0],
+		"cities": ["Kinshasa"]
+		"civilopediaText": [
+			{
+				"text": "United Nations Integrated Stabilization Mission in North Africa"
+			},
+		]
+	},
 ]

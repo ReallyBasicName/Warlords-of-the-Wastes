@@ -1,7 +1,7 @@
 [
 	//Angolan SSR
 	{
-		"name": "",
+		"name": "Committee for State Security",
 		"isWonder": true,
 		"uniqueTo": "Angolan SSR",
 		"production": 1,
@@ -11,7 +11,7 @@
 			"Provides [1] [Power]",
 			"[1] free [Dushka] units appear",
 			"Can only be built <in [Capital] cities>",
-			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Tesla Coil] [in this city]",
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Leading Mobility.",
@@ -134,6 +134,7 @@
 	//Innovation Hubs – مراكز الابتكار (Markāz Al-Ibtikār)
 	
 	//Ethiopia
+	//Eparchy/Town Hall
 	{
 		"name": "Holy Trinity Cathedral",
 		"isWonder": true,
