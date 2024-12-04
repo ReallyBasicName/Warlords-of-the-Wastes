@@ -1,75 +1,96 @@
 
 game.png
-size: 1024, 256
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Congress
   rotate: false
-  xy: 428, 112
+  xy: 636, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Council
   rotate: false
-  xy: 536, 112
+  xy: 744, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Al-Tūyūtā
   rotate: false
-  xy: 212, 112
+  xy: 420, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Angolan SSR
   rotate: false
-  xy: 320, 112
+  xy: 528, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Diamond Hyenas
   rotate: false
-  xy: 644, 112
+  xy: 852, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ethiopia
   rotate: false
-  xy: 752, 112
+  xy: 960, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Kongo-Zaire
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Lone Star
   rotate: false
-  xy: 860, 112
+  xy: 1176, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/New Rhodesia
   rotate: false
-  xy: 4, 12
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Sons of Ra
   rotate: false
-  xy: 212, 4
+  xy: 1392, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Vodúnsɛntó
   rotate: false
-  xy: 320, 4
+  xy: 1500, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Ethiopian Orthodoxy
+  rotate: false
+  xy: 1068, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mobutism
+  rotate: false
+  xy: 1284, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
