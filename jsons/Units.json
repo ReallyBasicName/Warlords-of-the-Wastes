@@ -226,4 +226,36 @@
 		"movement": 2,
 		"religiousStrength": 1000
 	},
+	//City-States
+	{
+		"name": "UN Peacekeeper",
+		"unitType": "Scrapper",
+		"uniqueTo": "UN",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"attackSound": "machinegun"
+	},
+	//Maitatsine
+	{
+		"name": "Mujahidin",
+		"unitType": "Scrapper",
+		"uniqueTo": "Purists",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"attackSound": "machinegun"
+	},
 ]

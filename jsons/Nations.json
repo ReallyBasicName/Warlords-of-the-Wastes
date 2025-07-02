@@ -74,6 +74,11 @@
 			"Lourenço"
 			]
         "spyNames": ["Vinama", "Arlindo", "Demosthenes", "Chingunji", "Tito", "Chitunda", "António", "Kalias", "Sangumba", "Wilson"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Lone Star",
@@ -87,7 +92,7 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 		
-		"declaringWar": "It must be done... you have become too corrupt.",
+		"declaringWar": "It must be done... you have become too corrupt!",
 		"attacked": "You mistake our passiveness as weakness!",
 		"defeated": "The last bastion of liberty in Africa falls...",
 		"introduction": "Help us bring back the times of old, where people had a choice. A choice to enjoy life, live life, see life.",
@@ -126,6 +131,11 @@
 			"Dickinson"
 			]
         "spyNames": ["Samuel", "Joseph", "James", "Daniel", "Hilary", "Anthony", "Edward", "Alfred", "William", "Arthur"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Al-Tūyūtā",
@@ -142,7 +152,7 @@
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",
-		"introduction": "",
+		"introduction": "Before you stands Hassan of Al-Tūyūtā! Many call me a warlord and I accept that title. While you may bring peace, I bring war.",
 		
 		"neutralHello": "",
 		"hateHello": "",
@@ -184,6 +194,11 @@
 			"Tūndrā"
 			]
         "spyNames": ["Muḥammad", "Hissène", "Idriss", "Mahamat", "Goukouni", "Félix", "Noël", "François", "Djimrangar", "Youssouf"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
     {
         "name": "New Rhodesia",
@@ -192,7 +207,7 @@
         "startBias": ["Badlands"],
         "preferredVictoryType": "Diplomatic",
 		
-        "startIntroPart1": "",
+        "startIntroPart1": "Sit down, let me tell you a story. decades ago.. we used to be a ",
         "startIntroPart2": "",
 		
         "declaringWar": "",
@@ -234,6 +249,11 @@
 			"Plumtree"
 	]
         "spyNames": ["Ian", "Kenyon", "Peter", "Mick", "Frank", "Ronald", "Ken", "Abel", "Ndabaningi", "James"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
     },
 	{
 		"name": "Vodúnsɛntó",
@@ -266,6 +286,11 @@
 			"",
 			]
         "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Diamond Hyenas",
@@ -298,6 +323,11 @@
 			"",
 			]
         "spyNames": ["Lion", "Snake", "Dog", "Ocelot", "Lizard", "Wolf", "Tiger", "Panther", "Vulture", "Spider"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Sons of Ra",
@@ -326,7 +356,7 @@
 		"uniques": [
 			"[+1 Gold] from every [Desert]",
 			"Double quantity of [Slaves] produced",
-			"[All] units gain the [Inner Flame] promotion",
+			//"[All] units gain the [Inner Flame] promotion",
 			"[+1 Culture] from every [Luxury resource]"
 			]
 		"cities": [
@@ -353,6 +383,11 @@
 			"Behdsouthis"
 			]
         "spyNames": ["Djehuty", "Mimmontu", "Hapuseneb", "Menkheperreseneb", "Amenemhat", "Mery", "Ptahmose", "Meryptah", "Maya", "Nebwenenef"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Ethiopia",
@@ -367,9 +402,9 @@
 		"startIntroPart2": "",
 		
 		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
+		"attacked": "We've survived invasions, we've survived occupations, famines, nukes... what makes you think we will fall to you?",
+		"defeated": "Our resistance will be your downfall.",
+		"introduction": "Foreigner, what business have you here?",
 		
 		"neutralHello": "",
 		"hateHello": "",
@@ -380,13 +415,20 @@
 		//"style": "",
 		"uniqueName": "We're Still Standing",
 		"uniques": [
-			"Enemy [Land] units must spend [1] extra movement points when inside your territory"
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Culture] <when fighting units from a Civilization with more Cities than you>"
 			]
-		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+		"cities": [
+			"Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
 			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},/**/
 	//City-States
 		//City-State Locations
@@ -399,6 +441,24 @@
 		//Koboko, Uganda
 		//UNISMINA, North Africa
 	{
+		"name": "Purists",
+		"adjective": ["Purist"],
+		"cityStateType": "Trading",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "As long as you live, there will never be peace on this earth!",
+		"attacked": "If the infidels want a fight then come and get it.",
+		"defeated": "Allah is merciful to his followers!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200, 160, 0],
+		"cities": ["Loo"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
+	},
+	{
 		"name": "Kukuanaland",
 		"adjective": ["Kukuana"],
 		"cityStateType": "Trading",
@@ -410,6 +470,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200, 160, 0],
 		"cities": ["Loo"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Kongo-Zaire",
@@ -423,12 +488,17 @@
 		"introduction": "",
 		
 		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
+		"hateHello": "Do you truly know what you are doing?",
+		"tradeRequest": "Three trees stand in the desert",
 		
 		"outerColor": [0, 0, 0],
 		"innerColor": [79, 143, 60],
 		"cities": ["Kinshasa"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Volta",
@@ -436,16 +506,21 @@
 		"cityStateType": "Labor",
 		"startBias": ["Wasteland"],
 
-		"declaringWar": "You'll drown in the blood we're about to shed!",
-		"attacked": "Muahahahahahaha!",
-		"defeated": "We may have been 'stopped', but you are now the bearer of the plague. You can't stop a thing...",
+		"declaringWar": "",
+		"attacked": "You attack us as we stay here, unmoving.",
+		"defeated": "In the river runs a crimson water, because of you...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [95, 0, 0],
+		"innerColor": [50, 63, 13],
 		"cities": ["Volta"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "African Union",
-		"adjective": ["Zairian"],
+		"adjective": ["Union"],
 		"cityStateType": "Labor",
 		"startBias": ["Wasteland"],
 
@@ -453,8 +528,13 @@
 		"attacked": "For African Unity!",
 		"defeated": "Our mission won't go unfinished!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [95, 0, 0],
+		"innerColor": [113, 231, 32],
 		"cities": ["Kinshasa"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "Koboko",
@@ -468,22 +548,45 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [95, 0, 0],
 		"cities": ["Koboko"]
+		"civilopediaText": [
+			{
+				"text": ""
+			},
+		]
 	},
 	{
 		"name": "UNISMINA",
-		"adjective": ["Zairian"],
+		"adjective": ["UN"],
 		"cityStateType": "Labor",
 		"startBias": ["Wasteland"],
 
 		"declaringWar": "You have been deemed a threat.",
 		"attacked": "End hostilities immediately",
 		"defeated": "Suspend all operations in the North African Exclusion Zone.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [95, 0, 0],
-		"cities": ["Kinshasa"]
+		"outerColor": [1, 159, 221],
+		"innerColor": [255, 255, 255],
+		"cities": ["UNISMINA Base"]
 		"civilopediaText": [
 			{
 				"text": "United Nations Integrated Stabilization Mission in North Africa"
+			},
+		]
+	},
+	{
+		"name": "UNISMIEA",
+		"adjective": ["UN"],
+		"cityStateType": "Labor",
+		"startBias": ["Wasteland"],
+
+		"declaringWar": "You have been deemed a threat.",
+		"attacked": "End hostilities immediately",
+		"defeated": "Suspend all operations in the North African Exclusion Zone.",
+		"outerColor": [1, 159, 221],
+		"innerColor": [255, 255, 255],
+		"cities": ["UNISMIEA"]
+		"civilopediaText": [
+			{
+				"text": "United Nations Integrated Stabilization Mission in East Africa"
 			},
 		]
 	},

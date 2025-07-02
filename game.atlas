@@ -6,42 +6,42 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Congress
   rotate: false
-  xy: 636, 104
+  xy: 844, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Council
   rotate: false
-  xy: 744, 104
+  xy: 952, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Al-Tūyūtā
   rotate: false
-  xy: 420, 104
+  xy: 628, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Angolan SSR
   rotate: false
-  xy: 528, 104
+  xy: 736, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Diamond Hyenas
   rotate: false
-  xy: 852, 104
+  xy: 1060, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ethiopia
   rotate: false
-  xy: 960, 104
+  xy: 1168, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -55,7 +55,7 @@ NationIcons/Kongo-Zaire
   index: -1
 NationIcons/Lone Star
   rotate: false
-  xy: 1176, 104
+  xy: 1384, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -69,28 +69,49 @@ NationIcons/New Rhodesia
   index: -1
 NationIcons/Sons of Ra
   rotate: false
-  xy: 1392, 104
+  xy: 1600, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/UNISMIEA
+  rotate: false
+  xy: 420, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/UNISMINA
+  rotate: false
+  xy: 420, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Vodúnsɛntó
   rotate: false
-  xy: 1500, 104
+  xy: 1816, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Ethiopian Orthodoxy
   rotate: false
-  xy: 1068, 104
+  xy: 1276, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Mobutism
   rotate: false
-  xy: 1284, 104
+  xy: 1492, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UN Peacekeeper
+  rotate: false
+  xy: 1708, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

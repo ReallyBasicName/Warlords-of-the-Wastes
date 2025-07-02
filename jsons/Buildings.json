@@ -9,9 +9,9 @@
 		"cost": 1,
 		"uniques": [
 			"Provides [1] [Power]",
-			"[1] free [Dushka] units appear",
+			//"[1] free [Dushka] units appear",
 			"Can only be built <in [Capital] cities>",
-			"Gain a free [Tesla Coil] [in this city]",
+			//"Gain a free [Tesla Coil] [in this city]",
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Leading Mobility.",
@@ -118,10 +118,13 @@
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Education"
-	},/*
+	},
+	//Because I don't have a keyboard that allow ū and ā
+	/*
 		"uniqueTo": "Al-Tūyūtā",
 		"replaces": "",	
-*/	//Headquarters – المقر الرئيسي (Al-Maqar Al-Ra'īsī)
+	*/
+	//Headquarters – المقر الرئيسي (Al-Maqar Al-Ra'īsī)
 	//Manufacturing Plants – مصانع التصنيع (Maṣāni‘ Al-Taṣnī‘)
 	//Research & Development Centers – مراكز البحث والتطوير (Markāz Al-Baḥth wa Al-Taṭwīr)
 	//Design Studios – استوديوهات التصميم (Istūdyūhāt Al-Taṣmīm)
@@ -150,6 +153,36 @@
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Leading Mobility.",
+	},
+	{
+		"name": "",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Dergue",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Stele",
